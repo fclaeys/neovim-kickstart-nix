@@ -90,6 +90,7 @@ in {
   nvim-pkg = mkNeovim {
     plugins = all-plugins;
     inherit extraPackages;
+    appName = "nvim";
   };
 
   # You can add as many derivations as you like.
